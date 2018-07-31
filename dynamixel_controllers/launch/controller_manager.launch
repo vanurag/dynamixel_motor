@@ -21,14 +21,14 @@
             namespace: dynamixel_controller_manager
             serial_ports:
                 dxl_tty1:
-                    port_name: "/dev/ttyUSB0"
+                    port_name: "/dev/ttyUSB1"
                     baud_rate: 1000000
                     min_motor_id: 0
                     max_motor_id: 30
                     update_rate: 10
                 <!--
                 dxl_tty2:
-                    port_name: "/dev/ttyUSB1"
+                    port_name: "/dev/ttyUSB5"
                     baud_rate: 1000000
                     min_motor_id: 10
                     max_motor_id: 20
